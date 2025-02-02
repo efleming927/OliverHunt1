@@ -7,8 +7,7 @@ branches:
 jobs:
 android_build:
 uses:
-supportingami/programming-club-builder/.github/workflows/andr
-oid-build.yml@main
+supportingami/programming-club-builder/.github/workflows/android-build.yml@main
 with:
 dist-path: app
 icon-path: hunt.png
