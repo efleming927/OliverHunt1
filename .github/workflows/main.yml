@@ -1,0 +1,16 @@
+name: Android Build
+on:
+workflow_dispatch:
+push:
+branches:
+- main
+jobs:
+android_build:
+uses:
+supportingami/programming-club-builder/.github/workflows/andr
+oid-build.yml@main
+with:
+dist-path: app
+icon-path: hunt.png
+app-name: OliverHunt
+app-id: olver.hunt.app
